@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.container {
+
+}
+
+
+/* 버튼 비활성화 일때 */
+ul {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul li {
+  color: gray;
+}
+/* 버튼 활성 */
+ul li.on {
+  color: black;
+  cursor: pointer;
+}
+section {
+  width: 300px;
+  height: 200px;
+  font-size: 50px;
+}
+/* 박스 비활성 */
+section article {
+  display: none;
+}
+/* 박스 활성 */
+section article.on {
+  display: block;
+}
+/* 박스 순서별로 배경색 지정 */
+section article:nth-child(1){
+  background: gold;
+  height: 200px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+section article:nth-child(2){
+  background: tomato;
+  height: 200px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+section article:nth-child(3){
+  background: green;
+  height: 200px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}

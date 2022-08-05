@@ -1,0 +1,39 @@
+.row {
+	width: 300px;
+}
+
+.btn {
+	margin-right: 5px;
+	float: left;
+	width: 48px;
+	height: 48px;
+	padding: 8px;
+	margin-top: 4px;
+	font-size: 40px;
+	cursor: pointer;
+	background: #ffd700;
+	border-radius: 4px;
+}
+
+.btn:active {
+	background : #ffb700
+}
+
+.op {
+	background-color: #ff9b22;
+}
+
+#result {
+	color: #ffffff;
+	background-color: #202020;
+	font-size: 40px;
+	text-align: right;
+	width: 263px;
+	height: 100px;
+}
+
+.result:disabled {
+	background-color: white;
+	border: solid 1px #ffe100;
+	font-size: 14px;
+}
