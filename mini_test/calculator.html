@@ -15,6 +15,10 @@
     <input id="result" placeholder="0"/>
   </div>
   <div class="row">
+    <div class="btn clear1" onclick="clearDisplay()">AC</div>
+    <div class="btn clear2" onclick="del()">←</div>
+  </div>
+  <div class="row">
     <div class="btn" onclick="add('7')">7</div>
     <div class="btn" onclick="add('8')">8</div>
     <div class="btn" onclick="add('9')">9</div>
@@ -33,8 +37,8 @@
     <div class="btn op" onclick="add('-')">-</div>
   </div>
   <div class="row">
-    <div class="btn op" onclick="clearDisplay()">C</div>
     <div class="btn" onclick="add('0')">0</div>
+    <div class="btn" onclick="add('.')">.</div>
     <div class="btn op" onclick="compute()">=</div>
     <div class="btn op" onclick="add('+')">+</div>
   </div>
